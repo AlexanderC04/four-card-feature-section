@@ -112,7 +112,9 @@
         grid-template-rows:repeat(2, 1fr);
         column-gap: 25px;
     }
-
+    .card__item {
+        background-color: var(--White);
+    }
     .card__title-head {
         font-size: 36px;
     }
@@ -126,7 +128,9 @@
     .card {
         max-width: 1200px;
     }
-
+    .card__item {
+        background-color: var(--White);
+    }
     .card__content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
